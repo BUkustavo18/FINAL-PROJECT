@@ -20,6 +20,9 @@ ps. If wala ka naka log in as initial Admin, wala kay access mostly sa mga featu
 
 message me nalang if naay confusions. 
 
+PS. AUTHENTICATION CODE AND LOGIC NOT MINE.
+credits to:https://www.itsolutionstuff.com/post/laravel-11-user-roles-and-permissions-tutorialexample.html#google_vignette
+
 
 
 # WEIGHBRIDGE-MANAGMENT-SYSTEMSSSS
