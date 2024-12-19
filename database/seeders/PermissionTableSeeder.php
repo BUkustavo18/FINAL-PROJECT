@@ -21,11 +21,18 @@ class PermissionTableSeeder extends Seeder
            'product-list',
            'product-create',
            'product-edit',
-           'product-delete'
+           'product-delete',
+           'dailylog-list',   // permission to view daily logs
+           'dailylog-create',  // permission to create daily logs
+           'dailylog-edit',   // permission to edit daily logs
+           'dailylog-delete'
         ];
         
         foreach ($permissions as $permission) {
-             Permission::create(['name' => $permission]);
+            // Check if the permission already exists
+            if (!Permission::where('name', $permission)->exists()) {
+                Permission::create(['name' => $permission]);
+            }
         }
     }
 }

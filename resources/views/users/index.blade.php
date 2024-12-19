@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.dashboard')
 
 @section('content')
 <div class="row">
@@ -6,6 +6,7 @@
         <div class="pull-left">
             <h2>Users Management</h2>
         </div>
+        
         <div class="pull-right">
             <a class="btn btn-success mb-2" href="{{ route('users.create') }}"><i class="fa fa-plus"></i> Create New User</a>
         </div>
@@ -54,5 +55,5 @@
 
 {!! $data->links('pagination::bootstrap-5') !!}
 
-<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>
+<p class="text-center text-primary"><small>Created By: Demdem BUkustavo</small></p>
 @endsection
