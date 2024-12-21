@@ -1,4 +1,7 @@
+ Install spatie/laravel-permission Package:
+composer require spatie/laravel-permission
 
+ 
 para maka register as an Admin
 
 use this user information: 
