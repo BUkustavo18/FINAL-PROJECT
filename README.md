@@ -60,6 +60,26 @@ run code
 
     git checkout <branch-name>
 
+change ".env.edit" file to ".env"
+
+create mailtrap account
+
+change credential below base on you mailtrap credential
+
+
+# Looking to send emails in production? Check out our Email API/SMTP product!
+        MAIL_MAILER=smtp
+        MAIL_HOST=sandbox.smtp.mailtrap.io
+        MAIL_PORT=2525
+        MAIL_USERNAME=38bfdbe9238288
+        MAIL_PASSWORD=5f4f8981d286eb
+        MAIL_ENCRYPTION=null
+        MAIL_FROM_ADDRESS="quipper18@gmail.com.com"
+        MAIL_FROM_NAME="${APP_NAME}"
+
+
+
+
 install the Spatie package for ACL.
 run command
 
