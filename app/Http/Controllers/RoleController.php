@@ -8,9 +8,11 @@ use App\Http\Controllers\Controller;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 use DB;
+use Illuminate\Container\Attributes\DB as AttributesDB;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
-    
+use Illuminate\Support\Facades\DB as FacadesDB;
+
 class RoleController extends Controller
 {
     /**

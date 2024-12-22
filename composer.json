@@ -9,7 +9,7 @@
         "barryvdh/laravel-dompdf": "^3.0",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
-        "laravel/ui": "^4.5",
+        "laravel/ui": "^4.6",
         "spatie/laravel-permission": "^6.10"
     },
     "require-dev": {

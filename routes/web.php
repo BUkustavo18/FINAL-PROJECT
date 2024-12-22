@@ -32,3 +32,6 @@ Route::get('/reports', [ReportController::class, 'index'])->name('reports.index'
 Route::post('/reports/generate', [ReportController::class, 'generate'])->name('reports.generate');
 
 Route::get('/daily-logs', [DailyLogController::class, 'page'])->name('daily_logs.page');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

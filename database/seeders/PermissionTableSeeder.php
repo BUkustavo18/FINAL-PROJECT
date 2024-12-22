@@ -29,10 +29,7 @@ class PermissionTableSeeder extends Seeder
         ];
         
         foreach ($permissions as $permission) {
-            // Check if the permission already exists
-            if (!Permission::where('name', $permission)->exists()) {
-                Permission::create(['name' => $permission]);
-            }
-        }
+            Permission::create(['name' => $permission]);
+       }
     }
 }
