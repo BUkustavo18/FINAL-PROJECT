@@ -40,3 +40,4 @@ credits to:https://www.itsolutionstuff.com/post/laravel-11-user-roles-and-permis
 
 
 # WEIGHBRIDGE-MANAGMENT-SYSTEMSSSS
+# FINAL-PROJECT
