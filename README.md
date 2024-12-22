@@ -40,6 +40,14 @@ run command
 
 final check if it works
 
+in separate terminal
+run command
+
+    npm i
+
+    npm run dev
+    
+
 run command
 
     php artisan serve
