@@ -1,43 +1,57 @@
- Install spatie/laravel-permission Package:
+install the Spatie package for ACL.
+run command
+
+    composer require spatie/laravel-permission
+    
+migrate
+run command
+
+    php artisan migrate
+
+ install the laravel/ui package
+ run command
+
+    composer require laravel/ui
+    
+ run command  
  
-composer require spatie/laravel-permission
+    php artisan ui bootstrap --auth
+    
 
- 
-para maka register as an Admin
+Install NPM:
 
-use this user information: 
+    npm install
+    
 
-name = Demdem Torred
+Run NPM:
 
-email = quipper18@gmail.com
+    npm run build
 
-password = 123456
+Seeder For Permissions and AdminUser
 
-if you want to change the initial admin information, go to 
+run command
 
-database/seeder/CreateAdminUserSeeder.
+    php artisan db:seed --class=PermissionTableSeeder
 
-change information below
+seeder for creating an admin user.
+run command
 
-$user = User::create([
+    php artisan db:seed --class=CreateAdminUserSeeder
 
-            'name' => 'Demdem Torred', 
-			
-            'email' => 'quipper18@gmail.com',
-			
-            'password' => bcrypt('123456')
-			
-        ]);
+final check if it works
 
-ps. If wala ka naka log in as initial Admin, wala kay access mostly sa mga features.
+run command
 
-message me nalang if naay confusions. 
+    php artisan serve
 
-PS. AUTHENTICATION CODE AND LOGIC NOT MINE.
+log in credential for initial admin
 
-credits to:https://www.itsolutionstuff.com/post/laravel-11-user-roles-and-permissions-tutorialexample.html#google_vignette
-
+    mail: 
+        quipper18@gmail.com
+        
+    pass:
+        123456
 
 
-# WEIGHBRIDGE-MANAGMENT-SYSTEMSSSS
+
 # FINAL-PROJECT
