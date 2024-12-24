@@ -142,6 +142,11 @@ log in credential for initial admin
     pass:
         123456
 
+PS. AUTHENTICATION LOGIC NOT OURS,
+
+CREDITS TO:
+
+     https://www.itsolutionstuff.com/post/laravel-11-user-roles-and-permissions-tutorialexample.html
 
 
 # FINAL-PROJECT
