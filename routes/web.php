@@ -35,3 +35,7 @@ Route::get('/daily-logs', [DailyLogController::class, 'page'])->name('daily_logs
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
