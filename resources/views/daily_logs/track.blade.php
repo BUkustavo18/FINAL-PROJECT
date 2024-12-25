@@ -63,5 +63,5 @@
 <!-- Pagination -->
 {!! $dailyLogs->appends(['query' => request('query')])->links('pagination::bootstrap-5') !!}
 
-<p class="text-center text-primary"><small>Created By: Demdem Bukustavo</small></p>
+<p class="text-center text-primary"><small>Created By: Jn Mojello</small></p>
 @endsection

@@ -18,6 +18,10 @@ class PermissionTableSeeder extends Seeder
            'role-create',
            'role-edit',
            'role-delete',
+           'user-list',
+           'user-create',
+           'user-delete',
+           'user-edit',
            'product-list',
            'product-create',
            'product-edit',
@@ -25,7 +29,9 @@ class PermissionTableSeeder extends Seeder
            'dailylog-list',   // permission to view daily logs
            'dailylog-create',  // permission to create daily logs
            'dailylog-edit',   // permission to edit daily logs
-           'dailylog-delete'
+           'dailylog-delete',
+           'report-index'
+
         ];
         
         foreach ($permissions as $permission) {

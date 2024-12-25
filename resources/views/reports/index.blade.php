@@ -45,9 +45,12 @@
                 @endforeach
             </tbody>
         </table>
+        
 
         <!-- Export to PDF Button -->
        
     @endif
+    
 </div>
+<p class="text-center text-primary"><small>Created By: Jules Vales</small></p>
 @endsection

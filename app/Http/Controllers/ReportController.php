@@ -10,6 +10,13 @@ use PDF;
 
 class ReportController extends Controller
 {
+
+    function __construct()
+    {
+         $this->middleware('permission:report-index', ['only' => ['index','store']]);
+         
+    }
+    
     public function index()
     {
         return view('reports.index');
