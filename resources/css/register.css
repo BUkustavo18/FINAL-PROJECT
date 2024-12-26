@@ -18,7 +18,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
     padding: 1rem 2rem;
     display: flex;
@@ -42,8 +42,8 @@ header nav a {
 
 header nav a:hover {
     background: white;
-    color: #4CAF50;
-    border: 2px solid #4CAF50;
+    color: #101410;
+    border: 2px solid #000000;
     border-radius: 5px;
 }
 
@@ -61,7 +61,7 @@ header nav a:hover {
 .container h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #087f23;
+    color: #000000;
 }
 
 .container p {
@@ -93,7 +93,7 @@ input {
 }
 
 input:focus {
-    border-color: #4CAF50;
+    border-color: #000000;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
 }
 
@@ -102,7 +102,7 @@ input:focus {
     font-size: 1rem;
     border: none;
     border-radius: 5px;
-    background: #4CAF50;
+    background: #090b09;
     color: white;
     font-weight: 700;
     cursor: pointer;
