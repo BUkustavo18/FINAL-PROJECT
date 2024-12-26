@@ -1,3 +1,15 @@
+local development tool
+
+    [XAMPP]
+    
+    (https://www.apachefriends.org/download.html)
+
+make sure you already have NODE.js in your path
+
+    NODE.js
+
+    https://nodejs.org/en
+    
 Create a new branch:
 
 bash
@@ -59,6 +71,15 @@ run code
     git fetch
 
     git checkout <branch-name>
+
+
+    
+
+# P.S. If any issues occur, it's best to prompt ChatGPT for assistance.
+
+
+
+
 
 change ".env.edit" file to ".env"
 
